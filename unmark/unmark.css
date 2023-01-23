@@ -1,0 +1,91 @@
+.unmark {
+   margin: auto;
+  font-family: "League Spartan";
+  font-style: normal;
+  /* border: 1px solid red; */
+  width: 360px;
+  height: 800px;
+  /* padding: 1rem; */
+  background: #ffffff;
+  box-shadow: 0px -4px 24px rgba(94, 129, 244, 0.25);
+}
+.unmark > h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #1c1d21;
+}
+.unmark-text {
+  padding: 1rem;
+}
+.unmark > .top {
+  /* border: 1px solid red; */
+  gap: 10px;
+  width: fit-content;
+}
+.top a{
+    text-decoration: none;
+}
+.unmark > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #8181a5;
+}
+.unmark-button {
+  padding: 10px;
+  background: #ffffff;
+  margin-top: 32px;
+  box-shadow: 0px -4px 16px rgba(85, 22, 170, 0.15);
+}
+.unmark-top {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 12px;
+}
+.unmark-button > .price {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.4px;
+  color: #1c1d21;
+}
+.un-button {
+  width: 328px;
+  height: 48px;
+  background: #ef4f53;
+  border-radius: 150px;
+  display: inline-block;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin-bottom: 16px;
+  text-decoration: none;
+}
+.anc{
+  text-decoration: none;
+}
+#mutual-div1 {
+    display: flex;
+    margin: auto;
+    margin-top: 12px;
+    /* border: 1px solid red; */
+    width: 328px;
+    height: 64px;
+    /* font-family:'Lato'; */
+    background: #ffffff;
+    box-shadow: 0px 2px 4px rgba(28, 29, 33, 0.15);
+    border-radius: 8px;
+  }
+  #rectangle {
+    width: 24px;
+    height: 24px;
+    margin: 20px 20px 284px 20px;
+    background: #f6f0fe;
+    border-radius: 4px;
+  }

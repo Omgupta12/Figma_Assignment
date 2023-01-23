@@ -1,0 +1,60 @@
+.port {
+  font-family: "Lato";
+  font-style: normal;
+  margin: auto;
+  padding: 1rem;
+  width: 360px;
+  height: 800px;
+  /* border: 1px solid red; */
+  background: #ffffff;
+  box-shadow: 0px -4px 24px rgba(94, 129, 244, 0.25);
+}
+.port > .top a {
+    font-family: "Lato";
+  font-style: normal;
+  text-decoration: none;
+}
+.port .btn {
+  font-family: "Lato";
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  gap: 10px;
+  background: #f6f0fe;
+  border-radius: 150px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #5516aa;
+  margin-bottom: 20px;
+}
+
+.port > .text {
+  display: flex;
+  justify-content: center;
+
+  box-sizing: border-box;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  margin-top: 400px;
+  color: #a1a1bc;
+}
+.button {
+  text-align: center;
+  padding: 16px 20px;
+  gap: 10px;
+  background: #f6f0fe;
+  border-radius: 150px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #5516aa;
+  margin-bottom: 20px;
+}

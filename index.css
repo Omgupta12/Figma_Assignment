@@ -1,0 +1,425 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+
+}
+
+#mutual-div1 {
+  display: flex;
+  margin: auto;
+  margin-top: 12px;
+  /* border: 1px solid red; */
+  width: 328px;
+  height: 64px;
+  /* font-family:'Lato'; */
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(28, 29, 33, 0.15);
+  border-radius: 8px;
+}
+#mutual-div2 {
+  display: flex;
+  margin: auto;
+  /* border: 1px solid red; */
+  width: 328px;
+  height: 64px;
+  background: #ffffff;
+  border: 1px solid #5516aa;
+  box-shadow: 0px 0px 7px rgba(94, 129, 244, 0.25);
+  border-radius: 8px;
+}
+#rectangle {
+  width: 24px;
+  height: 24px;
+  margin: 20px 20px 284px 20px;
+  background: #f6f0fe;
+  border-radius: 4px;
+}
+#blue_rectangle {
+  width: 24px;
+  height: 24px;
+  margin: 20px 20px 284px 20px;
+  background-color: #5516aa;
+  /* border: 1px solid #c3d0fb; */
+  border-radius: 4px;
+}
+#blue_rectangle > img {
+  margin: 6px;
+}
+#mutual-text {
+  /* border: 1px solid rgb(9, 7, 7); */
+  font-family: "Lato";
+  line-height: 16px;
+  font-size: 12px;
+  font-weight: 500;
+}
+#fund-text {
+  width: 92px;
+  height: 16px;
+  /* border: 1px solid rgb(9, 7, 7); */
+  color: #1c1d21;
+}
+#value-text {
+  margin-top: -10px;
+  width: 119px;
+  height: 16px;
+  color: #8181a5;
+  /* border: 1px solid rgb(9, 7, 7); */
+}
+#arrow {
+  /* border: 1px solid rgb(9, 7, 7); */
+  width: 280px;
+  height: 36px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  height: 36px;
+}
+#arrow > img {
+  transform: rotate(180deg);
+}
+
+
+.dashboard {
+  margin-left: 10px;
+  margin-top: 10px;
+  /* border: 1px solid red; */
+  padding: 10px;
+  box-sizing: border-box;
+  width: 360px;
+  height: 830px;
+  background: #ffffff;
+  box-shadow: 0px -4px 24px rgba(94, 129, 244, 0.25);
+}
+.dashboard > .first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #8181a5;
+}
+.dashboard > .first > div > span {
+  color: #1c1d21;
+}
+
+.dashboard > .second {
+  font-family: "League Spartan";
+  font-style: normal;
+  width: 328px;
+  height: 80px;
+  border-radius: 8px;
+  border: 1.5px solid
+    rgba(233.00000131130219, 220.00000208616257, 250.00000029802322, 1);
+}
+.dashboard > .second h2 {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #41c0d2;
+  margin-left: 20px;
+  margin-top: -10px;
+  /* border: 1px solid red; */
+}
+.dashboard > .second p {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 12px;
+  margin-left: 20px;
+  line-height: 16px;
+  color: #696d7c;
+}
+
+/* Healthy component CSS */
+
+.healthy-main {
+  margin-top: 15px;
+  font-family: "League Spartan";
+  font-style: normal;
+  width: 327px;
+  height: 80px;
+  background: #ffffff;
+  border: 1.5px solid #e9dcfa;
+  border-radius: 8px;
+}
+.healthy-main .first {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-self: center;
+}
+.healthy-main .second {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px 15px;
+  gap: 10px;
+}
+#health {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #5516aa;
+}
+.learn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 12px;
+  gap: 10px;
+  width: 83px;
+  height: 32px;
+  background: #e7f7f9;
+  opacity: 0.8;
+  border-radius: 150px;
+}
+.learn p {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #41c0d2;
+  margin: auto;
+}
+
+/* credit button CSS */
+.credit {
+   margin-top: 15px;
+  font-family: "League Spartan";
+  font-style: normal;
+  width: 328px;
+  height: 48px;
+  background: #5516aa;
+  border-radius: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration: none;
+}
+.credit{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Unmark funds Css*/
+.funds {
+  margin-top: 15px;
+  font-family: "League Spartan";
+  font-style: normal;
+  display: flex;
+  justify-content: space-around;
+}
+
+.funds > .text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #8181a5;
+}
+.funds-btn a{
+  text-decoration: none;
+  color: #ef4f53;
+}
+
+.funds-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 12px;
+  gap: 10px;
+  background: #fde9ea;
+  opacity: 0.8;
+  border-radius: 150px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ef4f53;
+}
+
+/* ICICI Small Cap*/
+.icici {
+  margin-top: 20px;
+  font-family: "League Spartan";
+  font-style: normal;
+}
+.icici {
+  width: 328px;
+  height: 70px;
+  position: relative;
+}
+.e1 {
+  background-color: rgba(255, 255, 255, 1);
+  width: 328px;
+  height: 88px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.e1 {
+  border: 1.5px solid
+    rgba(233.00000131130219, 220.00000208616257, 250.00000029802322, 1);
+}
+.e2 {
+  color: rgba(28.000000230968, 29.000000171363354, 33.00000183284283, 1);
+  width: 179.9373016357422px;
+  height: 23.46666717529297px;
+  position: absolute;
+  left: 13px;
+  top: 9px;
+  font-family: League Spartan;
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: px;
+}
+.e3 {
+  color: rgba(129.00000751018524, 129.00000751018524, 165.00000536441803, 1);
+  width: 64.77742767333984px;
+  height: 23.46666717529297px;
+  position: absolute;
+  left: 13px;
+  top: 35px;
+  font-family: League Spartan;
+  text-align: left;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: px;
+}
+.e4 {
+  color: rgba(129.00000751018524, 129.00000751018524, 165.00000536441803, 1);
+  width: 24.67711639404297px;
+  height: 23.46666717529297px;
+  position: absolute;
+  left: 197.05078125px;
+  top: 35px;
+  font-family: League Spartan;
+  text-align: left;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: px;
+}
+.e5 {
+  color: rgba(129.00000751018524, 129.00000751018524, 165.00000536441803, 1);
+  width: 18.507837295532227px;
+  height: 23.46666717529297px;
+  position: absolute;
+  left: 197.05078125px;
+  top: 56.51171875px;
+  font-family: League Spartan;
+  text-align: left;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: px;
+}
+.e6 {
+  color: rgba(129.00000751018524, 129.00000751018524, 165.00000536441803, 1);
+  width: 62.721004486083984px;
+  height: 23.46666717529297px;
+  position: absolute;
+  left: 13px;
+  top: 56.51171875px;
+  font-family: League Spartan;
+  text-align: left;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: px;
+}
+.e7 {
+  color: rgba(65.0000037252903, 192.00000375509262, 210.00000268220901, 1);
+  width: 29px;
+  height: 23px;
+  position: absolute;
+  left: 131px;
+  top: 35px;
+  font-family: Lato;
+  text-align: left;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: px;
+}
+.e8 {
+  color: rgba(85.03899604082108, 22.241680920124054, 170.0000050663948, 1);
+  width: 29px;
+  height: 23px;
+  position: absolute;
+  left: 131px;
+  top: 57px;
+  font-family: Lato;
+  text-align: left;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: px;
+}
+.e9 {
+  color: rgba(28.000000230968, 29.000000171363354, 33.00000183284283, 1);
+  width: 14px;
+  height: 23px;
+  position: absolute;
+  left: 300px;
+  top: 35px;
+  font-family: Lato;
+  text-align: left;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: px;
+}
+.e10 {
+  color: rgba(85.03899604082108, 22.241680920124054, 170.0000050663948, 1);
+  width: 20px;
+  height: 23px;
+  position: absolute;
+  left: 294px;
+  top: 57px;
+  font-family: Lato;
+  text-align: left;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: px;
+}
+
+/* Bottom Navbar*/
+
+.navbar {
+  width: 328px;
+  height: 80px;
+  background: #ffffff;
+  box-shadow: 0px -4px 24px rgba(85, 22, 170, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+margin-top: 30px;
+  gap: 64px;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+.navbar div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar img{
+color: 4px solid #787878;
+
+}
+

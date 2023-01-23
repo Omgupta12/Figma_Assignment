@@ -1,0 +1,52 @@
+.poppup {
+  display: flex;
+  font-family: 'League Spartan';
+font-style: normal;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 16px;
+  gap: 8px;
+  width: 360px;
+  height: 459.88px;
+  background: #ffffff;
+  box-shadow: 0px -4px 24px rgba(94, 129, 244, 0.25);
+  border-radius: 16px 16px 0px 0px;
+  text-align: center;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-end;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.btn a{
+  text-decoration: none;
+}
+.back{
+display: flex;
+justify-content: center;
+align-items: center;
+    font-family: 'Lato';
+font-style: normal;
+text-align: center;
+margin: auto;
+width: 155px;
+height: 48px;
+margin-right: 5px;
+background: #E9DCFA;
+border-radius: 150px;
+color: #5516AA;
+}
+.confirm{
+    font-family: 'Lato';
+font-style: normal;
+    width: 157px;
+    height: 48px;
+    color: #FFFFFF;
+    background: #EF4F53;
+    border-radius: 150px;
+}
